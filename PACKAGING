@@ -1,0 +1,19 @@
+# Build for Go
+
+Merge local changes at revision
+ git merge <tag>
+
+From our source, compile using (from src dir)
+ GOROOT_FINAL=/usr/local/go ./make.bash
+
+Then compress, from the top-level
+
+```
+DEST=$(mktemp)
+echo $DEST
+tar --append -f $DEST --exclude-vcs --exclude=.github go
+```
+
+Finally, use the build script
+
+## Cross-compiling
