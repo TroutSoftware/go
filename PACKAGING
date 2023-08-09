@@ -1,0 +1,10 @@
+# Build for Go
+
+Merge local changes at revision
+ git merge <tag>
+
+From our source, compile using (from src dir)
+ GOROOT_FINAL=/opt/go ./make.bash
+
+Build the package
+ nfpm -p deb p
