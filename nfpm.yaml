@@ -1,7 +1,7 @@
 name: golang-trout
 arch: amd64
 platform: linux
-version: 1.21.3+trout-1
+version: 1.21.3+trout-2
 section: default
 priority: extra
 maintainer: Trout Software <devit@trout.software>
@@ -11,7 +11,7 @@ description: |
  Go is an open source programming language supported by Google
  Easy to learn and get started with
  Built-in concurrency and a robust standard library
- Growing ecosystem of partners, communities, and tools 
+ Growing ecosystem of partners, communities, and tools
  --
  This is a package for easy dev installation
 
