@@ -1,7 +1,7 @@
 name: golang-trout
 arch: amd64
 platform: linux
-version: 1.22.3+trout-1
+version: 1.22.4+trout-1
 section: default
 priority: extra
 maintainer: Trout Software <devit@trout.software>
